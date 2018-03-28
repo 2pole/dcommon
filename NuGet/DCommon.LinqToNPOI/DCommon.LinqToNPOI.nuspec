@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>LinqToNPOI</id>
+    <version>1.1.0</version>
+    <title>LinqToNPOI</title>
+    <authors>Zork</authors>
+    <owners>2Pole</owners>
+    <projectUrl>http://dcommon.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Easily write data to spreadsheets files by using LINQ, it depends  on NPOI.</description>
+    <copyright>Copyright 2013 @2Pole</copyright>
+    <tags>Excel linq spreadsheet npoi xls xlsx</tags>
+    <dependencies>
+      <dependency id="NPOI" version="2.3.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\DCommon.LinqToNPOI\Bin\Release\DCommon.LinqToNPOI.dll" target="lib\net45\DCommon.LinqToNPOI.dll" />
+    <file src="..\..\DCommon.LinqToNPOI\Bin\Release\DCommon.LinqToNPOI.pdb" target="lib\net45\DCommon.LinqToNPOI.pdb" />
+    <file src="..\..\DCommon.LinqToNPOI\Bin\Release\DCommon.LinqToNPOI.XML" target="lib\net45\DCommon.LinqToNPOI.XML" />
+  </files>
+</package>

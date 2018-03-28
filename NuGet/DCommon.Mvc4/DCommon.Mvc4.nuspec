@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DCommon.Mvc4</id>
+        <version>1.1.0</version>
+        <title>DCommon.Mvc4</title>
+        <authors>Zork</authors>
+        <owners>2Pole</owners>
+        <projectUrl>http://dcommon.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A light weight framework that support ASP.NET MVC4.</description>
+        <copyright>Copyright 2013 @2Pole</copyright>
+        <tags>Mvc Common Mvc4 Framework</tags>
+        <dependencies>
+            <dependency id="DCommon" version="1.1.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\Scripts\jquery.ajaxpager.js" target="Content\Scripts\jquery.ajaxpager.js" />
+        <file src="Content\Scripts\jquery.entityeditor.js" target="Content\Scripts\jquery.entityeditor.js" />
+        <file src="Content\Scripts\jquery.operate.js" target="Content\Scripts\jquery.operate.js" />
+        <file src="..\..\DCommon.Mvc4\Bin\Release\DCommon.Mvc4.dll" target="lib\net45\DCommon.Mvc4.dll" />
+        <file src="..\..\DCommon.Mvc4\Bin\Release\DCommon.Mvc4.pdb" target="lib\net45\DCommon.Mvc4.pdb" />
+        <file src="..\..\DCommon.Mvc4\Bin\Release\DCommon.Mvc4.XML" target="lib\net45\DCommon.Mvc4.XML" />
+    </files>
+</package>

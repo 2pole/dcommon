@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DCommon.EF6</id>
+    <version>1.0.0-beta1</version>
+    <title>DCommon.EF6</title>
+    <authors>Zork</authors>
+    <owners>2Pole</owners>
+    <projectUrl>http://dcommon.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DCommon data adapter for Entity Framework</description>
+    <copyright>Copyright 2013 @2Pole</copyright>
+    <tags>EF EntityFramework ORM Framework UnitOfWork Repository</tags>
+    <dependencies>
+      <dependency id="DCommon" version="1.0.9" />
+      <dependency id="EntityFramework" version="6.0.0-beta1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\DCommon.EF6\bin\Release\DCommon.EF6.dll" target="lib\net45\DCommon.EF6.dll" />
+    <file src="..\..\DCommon.EF6\bin\Release\DCommon.EF6.pdb" target="lib\net45\DCommon.EF6.pdb" />
+    <file src="..\..\DCommon.EF6\bin\Release\DCommon.EF6.XML" target="lib\net45\DCommon.EF6.XML" />
+  </files>
+</package>

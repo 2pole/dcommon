@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DCommon</id>
+        <version>1.1.0</version>
+        <title>DCommon</title>
+        <authors>Zork</authors>
+        <owners>2Pole</owners>
+        <projectUrl>http://dcommon.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A light weight framework that provides implementations of commonly used design patterns for applications using a Domain Driven Design approach.</description>
+        <copyright>Copyright 2012 @2Pole</copyright>
+        <tags>ORM Framework Common UnitOfWork Repository</tags>
+    </metadata>
+    <files>
+        <file src="..\..\DCommon\Bin\Release\DCommon.dll" target="lib\net45\DCommon.dll" />
+        <file src="..\..\DCommon\Bin\Release\DCommon.pdb" target="lib\net45\DCommon.pdb" />
+        <file src="..\..\DCommon\Bin\Release\DCommon.XML" target="lib\net45\DCommon.XML" />
+    </files>
+</package>

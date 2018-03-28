@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DCommon.NHibernate</id>
+        <version>1.1.0</version>
+        <title>DCommon.NHibernate</title>
+        <authors>Zork</authors>
+        <owners>2Pole</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>DCommon data adapter for NHibernate</description>
+        <copyright>Copyright 2012 @2Pole</copyright>
+        <tags>NHibernate EntityFramework ORM Framework UnitOfWork Repository</tags>
+        <dependencies>
+            <dependency id="DCommon" version="1.1.0" />
+            <dependency id="NHibernate" version="5.1.0" />
+            <dependency id="Common.Logging" version="3.4.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\..\DCommon.NHibernate\bin\Release\DCommon.NHibernate.dll" target="lib\net461\DCommon.NHibernate.dll" />
+        <file src="..\..\DCommon.NHibernate\bin\Release\DCommon.NHibernate.pdb" target="lib\net461\DCommon.NHibernate.pdb" />
+        <file src="..\..\DCommon.NHibernate\bin\Release\DCommon.NHibernate.XML" target="lib\net461\DCommon.NHibernate.XML" />
+    </files>
+</package>
